@@ -1,0 +1,44 @@
+/* ----- Set some useful defaults ----- */
+h1, h2, h3, h4, h5, h6, span, div {
+    font-family: "Open Sans";
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+@media only screen and (min-width: 530px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+/* ----- Header ----- */
+header {
+    background-color: #26215e;
+    text-align: center;
+    color: white;
+    padding: 1em 4em;
+}
+
+/* Navbar */
+.top-bar, .top-bar ul {
+    background-color: #7160aa;
+}
+
+.top-bar-center {
+    flex: 1 0 auto;
+}
+
+.top-bar ul li a {
+    font-weight: 600;
+    color: white;
+    opacity: 0.9;
+    transition: 0.3s ease;
+}
+
+.top-bar ul li a:hover {
+    opacity: 0.6;
+}
