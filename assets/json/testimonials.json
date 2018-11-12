@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Patrick Carter",
+        "role": "LSR Station Manager 2018/19",
+        "picture": "https://media.licdn.com/dms/image/C4D03AQGaVSj58p1KaA/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=iDw32lJv9yrIJohZPoVOUV3KGTwnyT98J7ITSXWcR1s",
+        "testimonial": "Jack is a dedicated and intelligent member of the team who works harder than pretty much anyone I know. He thinks outside the box and finds solutions to problems that nobody else could. He is clearly an outstanding member of any team."
+    }, 
+    {
+        "name": "Michael Childs",
+        "role": "Director of Camp Lakota",
+        "picture": "./assets/img/michael-photo.png",
+        "testimonial": "Jack is incredibly talented, his work ethic is fantanstic, his actual work is amazing and any company would be lucky to have him. Jack gets along very well with others and we are hopeful he will return to us one day."
+    },
+    {
+        "name": "Emma Rice",
+        "role": "LSR Station Manager 2016/17",
+        "picture": "https://media.licdn.com/dms/image/C4D03AQECK9oUeXSr7g/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=OgQE1GE9D5vZdAUr7QvVNlmaVKi4PLMyfZT-Hm3hBaw",
+        "testimonial": "Jack is a key team member at Leeds Student Radio. His technical ability is imperative in keeping our online radio station working. [...] I would therefore highly recommend Jack for any position. His intellect and character would be of benefit to any employer."
+    },
+    {
+        "name": "Becky Kusznir",
+        "role": "LSTV Station Manager 2018/19",
+        "picture": "https://media.licdn.com/dms/image/C4D03AQHaEhO4z97nDw/profile-displayphoto-shrink_800_800/0?e=1547683200&v=beta&t=VAgp6w3_namfVyqRuCaONMLE6UN-bivUQyUw4sTyvw0",
+        "testimonial": "Jack is always the go to for any issue in the office, not only is he amazing at getting it fixed but he also takes the time to teach and explain. He's always one to rely on."
+    }
+]
