@@ -163,3 +163,12 @@ header {
     font-family: 'Caveat Brush', cursive;
     font-size: 2em;
 }
+
+/* ----- Reveal ----- */
+.reveal {
+    border-radius: 12px;
+}
+
+.reveal-overlay {
+    background-image: linear-gradient(rgba(80, 71, 179, 0.8), rgba(38, 33, 94, 0.8));
+}
