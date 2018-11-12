@@ -1,6 +1,6 @@
 /* ----- Set some useful defaults ----- */
 h1, h2, h3, h4, h5, h6, span, div {
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -21,6 +21,19 @@ body {
     min-height: 100vh;
 }
 
+.grid-container {
+    max-width: 1140px;
+}
+
+a {
+    font-weight: bold;
+    color: #26215e;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #7160aa;
+}
 /* ----- Header ----- */
 header {
     background-color: #26215e;
@@ -114,4 +127,39 @@ header {
 .about-sidebar img {
     border-radius: 12px 12px 0 0;
     width: 100%;
+}
+
+.about-sidebar a {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.3em 0;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-sidebar a:last-child {
+    border-radius: 0 0 12px 12px;
+}
+
+.about-sidebar a.linkedin {
+    background-color: #0077B5;
+}
+
+.about-sidebar a.github {
+    background-color: #333;
+}
+
+.about-sidebar a.devpost {
+    background-color: #0abde3;
+}
+
+.about-sidebar a:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+}
+
+.handwritten {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 2em;
 }
