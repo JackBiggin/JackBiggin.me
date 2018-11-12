@@ -126,6 +126,68 @@ header {
     margin-top: 2em;
 }
 
+.testimonial-slider-container {
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 2em;
+}
+
+.testimonial p {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+
+.testimonial .name {
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 1.15em;
+    margin-top: 0.5em;
+}
+
+.testimonial .title {
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 1.15em;    
+    margin-bottom: 0.5em;
+}
+
+.testimonial .verify a {
+    font-size: 0.9em;
+    color: #0077B5;
+    transition: all 0.3s ease-in-out;
+}
+
+.testimonial .verify a:hover {
+    color: #002B69;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 4em;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+}
+
+.testimonial-slider-container .orbit-previous {
+    background-color: #26215e;
+    color: #FFF9FF;
+    border-radius: 0 50% 50% 0;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+    cursor: pointer;
+}
+
+.testimonial-slider-container .orbit-next {
+    background-color: #26215e;
+    color: #FFF9FF;
+    border-radius: 50% 0 0 50%;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+    cursor: pointer;
+}
+
 /* ----- About Page ----- */
 .about-sidebar {
     border-radius: 12px;
