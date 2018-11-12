@@ -40,7 +40,7 @@
     <header>
         <div class="grid-x grid-margin-x">
             <div class="cell">
-                <h1>Jack Biggin</h1>
+                <h1><a href="./">Jack Biggin</a></h1>
             </div>
         </div>
     </header>

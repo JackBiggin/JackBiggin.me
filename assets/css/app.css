@@ -9,6 +9,14 @@ h1 {
     font-size: 3em;
 }
 
+h1 a {
+    color: white;
+}
+
+h1 a:hover {
+    color: #D9D4FF;
+}
+
 
 @media only screen and (min-width: 530px) {
     h1 {
