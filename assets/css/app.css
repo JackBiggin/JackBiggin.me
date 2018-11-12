@@ -34,6 +34,10 @@ header {
     background-color: #7160aa;
 }
 
+.top-bar {
+    margin-bottom: 1.5em;
+}
+
 .top-bar-center {
     flex: 1 0 auto;
 }
@@ -99,4 +103,15 @@ header {
 
 .portfolio-item-text div div {
     margin-top: 2em;
+}
+
+/* ----- About Page ----- */
+.about-sidebar {
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(233,240,243,0.5), 0 0 0 1px #E6ECF8;
+}
+
+.about-sidebar img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
 }
