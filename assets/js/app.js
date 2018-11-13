@@ -1,10 +1,13 @@
 function openPortfolioItem(id) {
-    console.log(id);
     var popup = new Foundation.Reveal($('#portfolioModal'))
 
-    $.ajax('./assets/projects.json')
-    .done(function(resp){
-        //$('#portfolioModal').html(resp)
+    $.ajax('./assets/json/projects.json')
+    .done(function(projectData){
+
+        projectName = projectData[id]['name']
+        
+        $('#portfolioModal-title').html(projectName)
+
         popup.open()
     });
 }

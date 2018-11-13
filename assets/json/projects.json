@@ -2,11 +2,57 @@
     {
         "id": "0",
         "name": "The Northern Connection",
-        "thumbnail": "thumb-northern-connection.png"
+        "thumbnail": "thumb-northern-connection.png",
+        "links": [
+            {
+                "link": "http://thenorthernconnection.co.uk",
+                "text": "View Website",
+                "type": "website"
+            },
+            {
+                "link": "https://github.com/LUU-Media/Northern-Connection-Website",
+                "text": "View on GitHub",
+                "type": "github"
+            }
+        ]
     },
     {
         "id": "1",
         "name": "Leeds Student Radio",
-        "thumbnail": "thumb-lsr.png"
+        "thumbnail": "thumb-lsr.png",
+        "links": [
+            {
+                "link": "http://thisislsr.com",
+                "text": "View Website",
+                "type": "website"
+            },
+            {
+                "link": "https://github.com/LUU-Media/LSRPress",
+                "text": "View LSRPress on GitHub",
+                "type": "github"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Empire Minecraft",
+        "thumbnail": "thumb-emc-temp.png",
+        "links": [
+            {
+                "link": "http://lp.emc.gs",
+                "text": "View Landing Page",
+                "type": "website"
+            },
+            {
+                "link": "https://github.com/JackBiggin/EmpirePress",
+                "text": "View EmpirePress on GitHub",
+                "type": "github"
+            },
+            {
+                "link": "#",
+                "text": "View JavaScript Plugins on GitHub",
+                "type": "github"
+            }
+        ]
     }
 ]

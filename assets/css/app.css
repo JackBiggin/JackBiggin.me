@@ -237,8 +237,33 @@ header {
 /* ----- Reveal ----- */
 .reveal {
     border-radius: 12px;
+    border: 1px solid #26215e;
 }
 
 .reveal-overlay {
     background-image: linear-gradient(rgba(80, 71, 179, 0.8), rgba(38, 33, 94, 0.8));
+}
+
+.reveal h2 {
+    font-weight: 700;
+    text-align: center;
+    background-color: #26215e;
+    color: white;
+    margin: -1rem;
+    margin-bottom: 0.5em;
+    padding: 1rem;
+}
+
+.reveal .close-button {
+    background-color: #7160aa;
+    padding: 0.2em 0.42em;
+    border-radius: 50%;
+    margin-right: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 0.3em;
+}
+
+.portfolioModal .grid-x .cell:first-child {
+    border-right: 1px solid #ececec;
 }

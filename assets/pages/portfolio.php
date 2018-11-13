@@ -65,9 +65,14 @@
 
 <!-- Portfolio Item Modal -->
 <div class="reveal large" id="portfolioModal" data-reveal data-animation-in="slide-in-down fast" data-animation-out="scale-out-down fast">
-    <h1>Awesome. I Have It.</h1>
-    <p class="lead">Your couch. It is mine.</p>
-    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+    <h2 id="portfolioModal-title"></h2>
+
+    <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell small-12 large-6"><img src="https://via.placeholder.com/1280x720" /></div>
+        <div class="cell small-12 large-6">...</div>
+        </div>
+    </div>
+
     <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
     </button>
