@@ -1,6 +1,6 @@
 <div class="grid-container">
-    <h2 class="handwritten">Here's some cool stuff I've made</h2>
-    <div class="grid-x grid-padding-x grid-padding-y">
+    <h2 class="header">Portfolio</h2>
+    <div class="grid-x grid-padding-x grid-padding-y portfolio-items">
         <?php
             $portfolioItems = file_get_contents("./assets/json/projects.json");
             $portfolioItems = json_decode($portfolioItems, true);
@@ -20,7 +20,7 @@
         ?>
     </div>
 
-    <h2 class="handwritten">And here's some nice things people have said about me</h2>
+    <h2 class="header">Testimonials</h2>
     <div class="grid-x grid-padding-x grid-padding-y">
         <div class="cell small-0 large-2"></div>
         <div class="cell small-12 medium-12 large-8">
@@ -66,14 +66,17 @@
 <!-- Portfolio Item Modal -->
 <div class="reveal large" id="portfolioModal" data-reveal data-animation-in="slide-in-down fast" data-animation-out="scale-out-down fast">
     <h2 id="portfolioModal-title"></h2>
-
-    <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="cell small-12 large-6"><img src="https://via.placeholder.com/1280x720" /></div>
-        <div class="cell small-12 large-6">...</div>
-        </div>
-    </div>
-
     <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
     </button>
+
+    <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell small-12 large-6">
+            <div id="portfolioModal-screenshots"></div>
+        </div>
+        <div class="cell small-12 large-6">
+            <p id="portfolioModal-description"></p>
+            <div id="portfolioModal-links"></div>
+        </div>
+    </div>
 </div>

@@ -17,6 +17,12 @@ h1 a:hover {
     color: #D9D4FF;
 }
 
+h2.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1a1a1a;
+}
 
 @media only screen and (min-width: 530px) {
     h1 {
@@ -75,6 +81,10 @@ header {
 }
 
 /* ----- Portfolio ----- */
+.portfolio-items {
+    margin-bottom: 1em;
+}
+
 .portfolio-item {
     background-image: url("https://via.placeholder.com/1500x1000");
     background-size: cover;
@@ -266,4 +276,50 @@ header {
 
 .portfolioModal .grid-x .cell:first-child {
     border-right: 1px solid #ececec;
+}
+
+#portfolioModal .button {
+    margin: 0.25em;
+    background-color: #26215e;
+    border-radius: 4px;
+}
+
+#portfolioModal .button:hover {
+    background-color: #000012;
+}
+
+#portfolio-gallery .orbit-previous {
+    background-color: #26215e;
+    color: #FFF9FF;
+    border-radius: 0 50% 50% 0;
+    cursor: pointer;
+}
+
+#portfolio-gallery .orbit-next {
+    background-color: #26215e;
+    color: #FFF9FF;
+    border-radius: 50% 0 0 50%;
+    cursor: pointer;
+}
+
+#portfolio-gallery, .orbit-figure, .orbit-slide, .orbit-container, #portfolio-gallery img {
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: #1a1a1a;
+    color: #9a9a9a;
+}
+
+footer .copyright {
+    font-size: 0.7em;
+}
+
+footer .socials a {
+    font-size: 2em;
+    color: #9a9a9a;
+    font-weight: normal;
 }

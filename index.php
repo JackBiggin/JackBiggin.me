@@ -60,6 +60,16 @@
         require_once "./assets/pages/$page.php";
     ?>
 
+    <footer>
+        <div class="socials">
+            <a href="https://linkedin.com/in/JackBiggin"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/JackBiggin"><i class="fab fa-github-square"></i></a>
+            <a href="https://devpost.com/JackBiggin"><i class="fab fa-dev"></i></a>
+            <a href="https://twitter.com/JackBiggin"><i class="fab fa-twitter-square"></i></a>
+        </div>
+        <div class="copyright">&copy; Jack Biggin 2019</div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0/js/foundation.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.1.3/what-input.min.js"></script>

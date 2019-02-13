@@ -2,6 +2,7 @@
     {
         "id": "0",
         "name": "The Northern Connection",
+        "description": "The Northern Connection is an industry day ran by three of the UK's largest student radio stations. With very limited time, I was tasked with converting the event's print designs into a responsive website, while still abiding by the event's brand guidelines<br /><br />The website is built using Foundation 6 and is hosted on GitHub Pages.",
         "thumbnail": "thumb-northern-connection.png",
         "links": [
             {
@@ -14,45 +15,49 @@
                 "text": "View on GitHub",
                 "type": "github"
             }
+        ],
+        "screenshots": [
+            { "image": "./assets/img/projects/nc-1.jpg" },
+            { "image": "./assets/img/projects/nc-2.jpg" }
         ]
     },
     {
         "id": "1",
         "name": "Leeds Student Radio",
+        "description": "During my time as Leeds Student Radio's Head of Software, I've made significant changes to the station's online presence. I've been responsible for launching a new WordPress/Bootstrap based website, along with creating myLSR, the station's bespoke intranet and backend. I also develop smaller features when needed, such as the station's online player.",
         "thumbnail": "thumb-lsr.png",
         "links": [
             {
                 "link": "http://thisislsr.com",
                 "text": "View Website",
                 "type": "website"
-            },
-            {
-                "link": "https://github.com/LUU-Media/LSRPress",
-                "text": "View LSRPress on GitHub",
-                "type": "github"
             }
+        ],
+        "screenshots": [
+            { "image": "./assets/img/projects/lsr-1.jpg" },
+            { "image": "./assets/img/projects/lsr-2.jpg" }
         ]
     },
     {
         "id": "2",
         "name": "Empire Minecraft",
+        "description": "Currently a work in progress, this is a landing page for a gaming network with over 500,000 members and will be new player's first interaction with the network.<br /><br />Designed with younger players in mind, the page makes extensive use of visuals and presents information in a very simple to understand way. For ease of updates, the page is built on WordPress, with Bootstrap being used to aid design.",
         "thumbnail": "thumb-emc.png",
         "links": [
             {
-                "link": "http://lp.emc.gs",
-                "text": "View Landing Page",
+                "link": "./assets/img/emc-lp-wip.png",
+                "text": "View Preview",
                 "type": "website"
             },
             {
                 "link": "https://github.com/JackBiggin/EmpirePress",
-                "text": "View EmpirePress on GitHub",
-                "type": "github"
-            },
-            {
-                "link": "#",
-                "text": "View JavaScript Plugins on GitHub",
+                "text": "View on GitHub",
                 "type": "github"
             }
+        ],
+        "screenshots": [
+            { "image": "./assets/img/projects/emc-1.jpg" },
+            { "image": "./assets/img/projects/emc-2.jpg" }
         ]
     }
 ]
